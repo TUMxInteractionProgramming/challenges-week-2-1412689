@@ -1,0 +1,140 @@
+/* #2 #css #elements */
+/* Global */
+* {
+    /* #2 #font #faces */
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    /* #2 #colorful #background */
+    background-color: #F5F5F5;
+}
+
+/* App bar*/
+h1 {
+    /* #2 #colourful #app-bar */
+    background-color: #3F51B5;
+    color: white;
+}
+
+/* Channels list */
+
+/*styles for channel area*/
+h2 {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+}
+
+
+
+/* Tab bar */
+#tab-bar {
+    list-style-type: none;
+    background-color: white;
+    
+}
+#tab-bar li{
+    padding: 16px;
+}
+
+#tab-bar button {
+    width: 33%;
+    height: 72px;
+    padding: 16px;
+    color: black;
+    /* #2 #font capital #letters */
+    text-transform: uppercase;
+    border: none;
+    background-color: white;
+    font-size: 13px;
+}
+
+#tab-bar div button img {
+    margin:  0 auto 4px auto;
+}
+
+.menu li img {
+    vertical-align: bottom;;
+}
+
+#tab-bar .selected-button {
+    border-bottom: 4px solid #3F51B5;
+    color: #3F51B5;
+}
+#tab-bar .selected-channel{
+    border-left: 4px solid #3F51B5;
+    color: #3F51B5;
+    
+    font-size: 16px;
+}
+
+hr {
+    color: #F5F5F5;
+    background-color: #F5F5F5;
+    border: none;
+    height: 1px;
+}
+/* Messages */
+
+/*styles for chat area*/
+p {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+}
+
+strong {
+    /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+    text-transform: uppercase;
+}
+
+h3 {
+    /* #2 #font #metadata is now medium */
+    font-size: medium;
+}
+
+em {
+    /* #2 #font #remaining overrides the default italic appearance of em elements*/
+    font-size: larger;
+    font-style: normal;
+}
+
+
+/*
+Message container (width 80%; margin-bottom 8px)
+Message metadata (font-size medium)
+Message text (background white, padding 16 px)
+Message button (background CDDC39; black text color; transform text to uppercase)
+Message emphasised information (font size larger; font style normal)
+*/
+
+.message {
+    width: 80%;
+    margin-bottom: 8px; 
+    margin-left: 2.5%;
+}
+
+.message h3 {
+    font-size: medium;
+}
+
+.message div{
+    background-color: white;
+    padding: 16px;
+}
+
+.message button {
+    background-color: #CDDC39;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.message em {
+    font-size: larger;
+    font-style: normal;
+}
+
+.message.own {
+    margin-left: 17.5%;
+}
